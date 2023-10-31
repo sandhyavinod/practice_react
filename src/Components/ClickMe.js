@@ -8,9 +8,9 @@ class ClickMe extends React.Component {
       this.handleClick = this.handleClick.bind(this);
     }
     handleClick() {
-      // Change code below this line
-  this.setState({name:'Have a nice day!'})
-      // Change code above this line
+
+      this.setState({name:'Have a nice day!'})
+
     }
     render() {
       return (
