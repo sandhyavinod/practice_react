@@ -4,6 +4,7 @@ import Calendar from './Components/Calendar';
 import ToDo from './Components/ToDo';
 import Hello from './Components/Hello';
 import ClickMe from './Components/ClickMe';
+import Counter from './Components/Counter';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Hello/>
     <Calendar/>
     <ClickMe/>
+    <Counter/>
       <ToDo/>
     </div>
   );
