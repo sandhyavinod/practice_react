@@ -8,6 +8,7 @@ import Counter from './Components/Counter';
 import Controller from './Components/Controller';
 import CheckUserAge from './Components/CheckUserAge';
 import GameOfChance from './Components/GameOfChance';
+import DontTypeTooMuch from './Components/DontTypeTooMuch';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Controller/>
       <CheckUserAge/>
      <GameOfChance/>
+     <DontTypeTooMuch/>
     </div>
   );
 }
