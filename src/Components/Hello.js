@@ -18,7 +18,7 @@ class Hello extends React.Component {
     }
     render() {
       return (
-          <div>
+          <div style={{color: "blue", fontSize: 40}}>
 
             <p>Hello,<strong>{this.props.name}!</strong></p>
 
