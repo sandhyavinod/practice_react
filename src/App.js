@@ -12,6 +12,7 @@ import DontTypeTooMuch from './Components/DontTypeTooMuch';
 import MyToDoList from './Components/MyToDoList';
 import Frameworks from './Components/Frameworks';
 import UserOnline from './Components/UserOnline';
+import DisplayMessages from './Components/DisplayMessages';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
      <MyToDoList/>
      <Frameworks/>
      <UserOnline/>
+     <DisplayMessages/>
     </div>
   );
 }
